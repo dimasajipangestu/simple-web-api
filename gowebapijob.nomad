@@ -1,5 +1,5 @@
 job "go-web-api" {
- 
+  datacenter=["dc1"]
   # Run this job as a "service" type. Each job type has different properties
   type = "service"
  
